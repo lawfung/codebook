@@ -1,0 +1,4 @@
+syntax on
+se ru nu ai
+se ts=4 sts=4 sw=4 st=4 expandtab smarttab
+inoremap {<ENTER> {}<LEFT><ENTER><ENTER><UP><TAB>
