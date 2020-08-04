@@ -1,4 +1,7 @@
 syntax on
 se ru nu ai
-se ts=4 sts=4 sw=4 st=4 expandtab smarttab
+se ts=4 sts=4 sw=4 st=4 smarttab
 inoremap {<ENTER> {}<LEFT><ENTER><ENTER><UP><TAB>
+se mouse=a
+se laststatus=2
+"se expandtab

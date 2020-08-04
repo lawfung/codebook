@@ -1,31 +1,26 @@
 \begin{itemize}
 
     \item Pick's theorem
-
     $A=i+\frac{b}{2}-1$
 
     \item Laplacian matrix
-
     $L = D - A$
-
-    \item Extended Catalan number
-
-    $\frac{1}{(k-1)n+1} {kn\choose n}$
 
     \item Derangement
     $D_n=(n-1)(D_{n-1}+D_{n-2})$
 
-    \item Möbius
-
-    $\sum\limits_{i|n} \mu(i)=[n=1]$
+    \item Möbius function
+	$\sum\limits_{i|n} \mu(i)=[n=1]$
+	
+	\item Euler's totient function
     $\sum\limits_{i|n} \phi(i)=n$
 
     \item Inversion formula
 
-    $f(n)=\sum\limits_{i=0}^n{n \choose i}g(i)$
+    $f(n)=\sum\limits_{i=0}^n{n \choose i}g(i)$,
     $g(n)=\sum\limits_{i=0}^n(-1)^{n-i}{n \choose i}f(i)$
 
-    $f(n)=\sum\limits_{d|n}g(d)$
+    $f(n)=\sum\limits_{d|n}g(d)$,
     $g(n)=\sum\limits_{d|n}\mu(\frac{n}{d})f(d)$
 
     \item Sum of powers
@@ -49,33 +44,36 @@
 
     \item High order residue
 
-    $[d^{\frac{p-1}{(n,p-1)}}\equiv 1]$
+    $[d^{\frac{p-1}{(n,p-1)}}\equiv 1]$ ($p$ is odd prime and $p \not | d$)
 
     \item Packing and Covering
-
-    $|Maximum Independent Set| + |Minimum Vertex Cover| = |V|$
+	
+	|Maximum Independent Set| + |Minimum Vertex Cover| = |V|
 
     \item Kőnig's theorem
 
-    $|maximum matching| = |minimum vertex cover|$
+    |Maximum matching|(easy) = |Minimum vertex cover|
 
     \item Dilworth's theorem
 
-    $width = |largest antichain| = |smallest chain decomposition|$
+    width = |smallest chain decomposition| (vertex split and matching) = |largest antichain| = |maximim clique in Complement| (easy)
 
     \item Mirsky's theorem
 
-    $height = |longest chain| = |smallest antichain decomposition| = |minimum anticlique partition|$
+    height = |longest chain|(easy DP) = |smallest antichain decomposition| = |minimum anticlique partition| (subset DP)
 
     \item Triangle center
     
     \begin{itemize}
-    \item $G : (1,)$
-    \item $O : (a^2(b^2+c^2-a^2),)=(sin2A,)$
-    \item $I : (a,)=(sinA)$
-    \item $E : (-a, b, c)=(-sinA, sinB, sinC)$
-    \item $H : (\frac{1}{b^2+c^2-a^2},)=(tanA,)$
-    \end{itemize}
+    \item $G : (1,1,1)$
+    \item $O : (a^2(b^2+c^2-a^2),)=(\sin 2A, \sin 2B, \sin 2C)$
+    \item $I : (a,b,c)=(\sin A, \sin B, \sin C)$
+    \item $E : (-a, b, c)=(-\sin A, \sin B, \sin C)$
+    \item $H : (\frac{1}{b^2+c^2-a^2},)=(\tan A,\tan B,\tan C)$
+	\end{itemize}
+	
+	\item $\lfloor \frac{n}{i} \rfloor$ enumeration
+	$T_0=1, T_i = \lfloor \frac{n}{\lfloor \frac{n}{T_{i-1}+1}\rfloor } \rfloor$
 
     
 

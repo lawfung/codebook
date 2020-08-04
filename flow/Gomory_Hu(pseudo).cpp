@@ -3,12 +3,12 @@ def cut(G,s,t) :
 
 def gomory_hu(G):
 	T = {}
-	P = [1] * |V(G)|
+	p = [1] * |V(G)|
 	for s in [2,n] :
 		t = p[s]
-		C = cut(G,s,t)
-		add(s,t,w(C)) to c
-		for i in [s+1,n] :
+		C = cut(G, s, t)
+		add(s, t, w(C)) to T
+		for i in [s + 1, n] :
 			if p[i] == t and s-i path exists in G\C :
 				p[i] = s
 	return T;
