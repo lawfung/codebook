@@ -1,28 +1,18 @@
-ll a, c;
-ll doo(ll x, ll n) {
-    return addd( mull( a, mull(x, x, n), n ), c, n);
-}
-ll solve(ll n) {
-    if (isPrime(n)) return n;
-    if (!(n & 1)) return 2;
-    a = myRnd() % n; if (!a) a=1;
-    c = myRnd() % n;
-    while (c == 0 || c == 2) c = myRnd()%n;
-    ll start = myRnd()%n;
-    ll s1 = doo(start, n), s2 = doo(s1, n);
-    while (true) {
-        if (s1 == s2) {
-            start = myRnd() % n;
-            //a=myRnd()+1;
-            a = Rnd() % n; if (!a) a = 1;
-            c = Rnd() % n; while (c == 0 || c == 2) c = myRnd() % n;
-            s1 = doo(start, n), s2 = doo(s1, n);
-            continue;
-        }
-        ll _ = gcd(abs(s1 - s2), n);
-        if (_ != 1) {
-            return min(solve(_), solve(n / _));
-        }
-        s1 = doo(s1, n); s2 = doo(s2, n); s2 = doo(s2, n);
-    }
+map<ll, int> cnt;
+void PollardRho(ll n) {
+	if (n == 1) return;
+	if (isPrime(n)) return ++cnt[n], void();		
+	if (n % 2 == 0) return PollardRho(n / 2), ++cnt[2], void();
+	ll x = 2, y = 2, d = 1, p = 1;
+	auto f = [&](auto x, auto n, int p) { return (mul(x, x, n) + p) % n; }
+	while (true) {
+		if (d != n && d != 1) {
+			PollardRho(n / d);
+			PollardRho(d);
+			return;
+		}
+		if (d == n) ++p;
+		x = f(x, n, p); y = f(f(y, n, p), n, p);
+		d = __gcd(abs(x - y), n);
+	}
 }

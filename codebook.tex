@@ -38,7 +38,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\setmainfont{FreeMono}				%主要字型
+%\setmainfont{FreeMono}				%主要字型
 \setmonofont{Monaco}				%主要字型
 \setCJKmainfont{FreeMono}
 % \setCJKmainfont{FreeMono}			%中文字型
@@ -47,6 +47,12 @@
 \XeTeXlinebreakskip = 0pt plus 1pt				%設定段落之間的距離
 \setcounter{secnumdepth}{3}						%目錄顯示第三層
 
+\usepackage{tocloft}
+%\renewcommand*{\cftsecdotsep}{4.5}  % use dots in the section entries
+%\renewcommand*{\cftsecnumwidth}{3em} % increase space for Roman numerals
+%\renewcommand*{\cftsubsubsecindent}{2em} % reduce indent of subsubsection titles 
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \makeatletter
 \lst@CCPutMacro\lst@ProcessOther {"2D}{\lst@ttfamily{-{}}{-{}}}
@@ -54,7 +60,7 @@
 \makeatother
 \lstset{											% Code顯示
 language=C++,										% the language of the code
-basicstyle=\footnotesize\ttfamily, 						% the size of the fonts that are used for the code
+basicstyle=\ttfamily, 						% the size of the fonts that are used for the code
 %numbers=left,										% where to put the line-numbers
 numberstyle=\footnotesize,						% the size of the fonts that are used for the line-numbers
 stepnumber=1,										% the step between two line-numbers. If it's 1, each line  will be numbered
@@ -81,40 +87,72 @@ stringstyle=\itshape\color{Green4},
 \pagestyle{fancy}
 \fancyfoot{}
 %\fancyfoot[R]{\includegraphics[width=20pt]{ironwood.jpg}}
-\fancyhead[L]{National Taiwan University LYB}
+\fancyhead[L]{National Taiwan University LohneYB}
 \fancyhead[R]{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
-\renewcommand{\contentsname}{Contents} 
+\renewcommand{\contentsname}{Contents}
+
 
 \scriptsize
 \tableofcontents
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newpage
+%\newpage
 
 \section{Basic}
+
 \subsection{.vimrc}
 \lstinputlisting{basic/vimrc}
 
-\subsection{Default code}
-\lstinputlisting{basic/defaultcode.cpp}
+\subsection{Check}
+\lstinputlisting{basic/check.sh}
+
+\subsection{Factor Count List}
+\lstinputlisting{basic/factor_count.cpp}
+
+\subsection{Default}
+\lstinputlisting{basic/default.cpp}
+
+\subsection{Pragma}
+\lstinputlisting{basic/pragma.cpp}
+
+\subsection{Random int}
+\lstinputlisting{basic/random_int.cpp}
+
+\subsection{Increase Stack Size}
+\lstinputlisting{basic/increase_stack_size.cpp}
 
 \subsection{FasterIO}
 \lstinputlisting{basic/fasterIO.cpp}
 
-\subsection{Rope}
-\lstinputlisting{basic/rope.cpp}
+\section{Bitwise trick}
 
-\subsection{Black magic}
-\lstinputlisting{basic/black_magic.cpp}
+\subsection{Builtin Function}
+\lstinputlisting{bitwise_trick/builtin_function.cpp}
 
-\subsection{Check}
-\lstinputlisting{basic/check.sh}
+\subsection{Subset Enumeration}
+\lstinputlisting{bitwise_trick/subset_enumeration.cpp}
+
+\subsection{Next Permutation on binary}
+\lstinputlisting{bitwise_trick/next_perm.cpp}
+
+\subsection{SOS DP}
+\lstinputlisting{bitwise_trick/SOS_DP.cpp}
 
 \section{Theorem and Formula}
 \input{basic/lawfung.tex}
 
 \section{Data Structure}
+
+\subsection{<ext/pb\_ds>}
+\lstinputlisting{data_structure/ext_pbds.cpp}
+
+\subsection{Unordered map hash}
+\lstinputlisting{data_structure/my_hash_umap.cpp}
+
+\subsection{Rope}
+\lstinputlisting{data_structure/rope.cpp}
+
 \subsection{Disjoint set}
 \lstinputlisting{data_structure/DJS.cpp}
 
@@ -124,11 +162,11 @@ stringstyle=\itshape\color{Green4},
 %\subsection{Leftist Tree}
 %\lstinputlisting{data_structure/leftist.cpp}
 
-%\subsection{Link Cut Tree}
-%\lstinputlisting{data_structure/linkcut_tree.cpp}
+\subsection{Link Cut Tree}
+\lstinputlisting{data_structure/linkcut_tree.cpp}
 
-%\subsection{Li Chao Tree}
-%\lstinputlisting{data_structure/lichao.cpp}
+\subsection{Li Chao Tree}
+\lstinputlisting{data_structure/lichao.cpp}
 
 \section{Flow}
 \subsection{ISAP with bound}
@@ -212,6 +250,10 @@ stringstyle=\itshape\color{Green4},
 \lstinputlisting{graph/zl.cpp}
 
 \section{Math}
+
+\subsection{Fast Power}
+\lstinputlisting{math/fast_power.cpp}
+
 \subsection{Big Integer}
 \lstinputlisting{math/bigint.cpp}
 
@@ -224,14 +266,26 @@ stringstyle=\itshape\color{Green4},
 \subsection{FWT}
 \lstinputlisting{math/FWT.cpp}
 
+\subsection{Subset Convolution}
+\lstinputlisting{math/subset_convolution.cpp}
+
 \subsection{Gaussian Elimination}
 \lstinputlisting{math/gauss.cpp}
 
 \subsection{Miller Rabin}
-\lstinputlisting{math/miller_robin.cpp}
+\lstinputlisting{math/miller_rabin.cpp}
 
 \subsection{Pollard Rho}
 \lstinputlisting{math/Pollard_Rho.cpp}
+
+\subsection{Build phi and mu}
+\lstinputlisting{math/build_phi_and_mu.cpp}
+
+\subsection{Primitive root}
+\lstinputlisting{math/Primitive_root.cpp}
+
+\subsection{Cipolla's algorithm}
+\lstinputlisting{math/cipolla.cpp}
 
 \subsection{Meissel-Lehmer Algorithm}
 \lstinputlisting{math/phi_n.cpp}
@@ -242,11 +296,9 @@ stringstyle=\itshape\color{Green4},
 \subsection{Simplex Algorithm}
 \lstinputlisting{math/simplex.cpp}
 
-\subsection{Cipolla's algorithm}
-\lstinputlisting{math/cipolla.cpp}
 
-\subsection{FWT XOR with ternary}
-\lstinputlisting{math/MDSWIN_2.cpp}
+%\subsection{FWT XOR with ternary}
+%\lstinputlisting{math/MDSWIN_2.cpp}
 
 \section{String}
 \subsection{string tools}
@@ -276,9 +328,6 @@ stringstyle=\itshape\color{Green4},
 
 \subsection{Segment Max segment sum}
 \lstinputlisting{boook/NOI_Problem.cpp}
-
-\subsection{Primitive root}
-\lstinputlisting{boook/Primitive_root.cpp}
 
 \subsection{Chinese Remainder Theorem}
 \lstinputlisting{boook/same_remainder.cpp}
@@ -315,11 +364,5 @@ stringstyle=\itshape\color{Green4},
 
 \subsection{Hilbert Curve}
 \lstinputlisting{boook/hilbert.cpp}
-
-\subsection{Next Permutation on binary}
-\lstinputlisting{boook/next_perm.cpp}
-
-\subsection{SOS DP}
-\lstinputlisting{boook/ioimooeee_transfer.cpp}
 
 \end{document}
