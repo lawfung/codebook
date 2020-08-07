@@ -29,7 +29,7 @@ struct isap{
 	};
 	int n, S, T;
 	vector<edge> adj[N];
-    int dis[N], gap[N], ok;
+	int dis[N], gap[N], ok;
 	isap(int _n, int _s, int _t) : n(_n), S(_s), T(_t) {
 		for(int i = 0; i < n + 2; ++ i)	adj[i].clear();
 	}
@@ -57,38 +57,37 @@ struct isap{
 		return 0;
 	}
 	ll flow(){
-        memset(dis, 0, n * 4);
+		memset(dis, 0, n * 4);
 		memset(gap, 0, n * 4);
-        gap[0] = n;
+		gap[0] = n;
 		ok = 1;
 		ll r = 0;
 		while(dis[S] < n && ok)	r += dfs(S, INF);
 		return r;
 	}
-    // below for bounded only
-    ll D[N];
-    void bounded_init() {
-        memset(D, 0, n * 8);
-    }
-    void add2(int u, int v, ll b, ll c) {
-        add(u, v, c - b);
-        D[u] -= b;
-        D[v] += b;
-    }
-    ll bounded_flow() {
-        int SS = n, TT = n + 1;
-        ll base = 0;
-        for(int i = 0; i < n; ++ i) {
-            if (D[i] > 0) base += D[i];
-            if (D[i] > 0) add(SS, i, D[i]);
-            if (D[i] < 0) add(i ,TT, -D[i]);
-        }
-        add(T, S, INF);
-        int tmps = S, tmpt = T;
-        n += 2; S = SS, T = TT;
-        ll f = flow();
-        n -= 2; S = tmps; T = tmpt;
-        return f == base ? flow() : -1LL;
-    }
+	// below for bounded only
+	ll D[N];
+	void bounded_init() {
+		memset(D, 0, n * 8);
+	}
+	void add2(int u, int v, ll b, ll c) {
+		add(u, v, c - b);
+		D[u] -= b;
+		D[v] += b;
+	}
+	ll bounded_flow() {
+		int SS = n, TT = n + 1;
+		ll base = 0;
+		for(int i = 0; i < n; ++ i) {
+			if (D[i] > 0) base += D[i];
+			if (D[i] > 0) add(SS, i, D[i]);
+			if (D[i] < 0) add(i ,TT, -D[i]);
+		}
+		add(T, S, INF);
+		int tmps = S, tmpt = T;
+		n += 2; S = SS, T = TT;
+		ll f = flow();
+		n -= 2; S = tmps; T = tmpt;
+		return f == base ? flow() : -1LL;
+	}
 };
-int main(){}

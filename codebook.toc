@@ -26,63 +26,64 @@
 \contentsline {subsection}{\numberline {5.2}Min Cost Max Flow}{5}
 \contentsline {subsection}{\numberline {5.3}S-W Global Min Cut}{5}
 \contentsline {subsection}{\numberline {5.4}Gomory Hu Tree}{5}
-\contentsline {section}{\numberline {6}Geometry}{6}
-\contentsline {subsection}{\numberline {6.1}Circle}{6}
-\contentsline {subsection}{\numberline {6.2}Half Plane Intersection}{6}
-\contentsline {subsection}{\numberline {6.3}Convex Hull 3D}{6}
-\contentsline {subsection}{\numberline {6.4}Convex Hull}{7}
-\contentsline {subsection}{\numberline {6.5}Polar Angle Sort}{7}
-\contentsline {subsection}{\numberline {6.6}Circle and Polygon intersection}{7}
-\contentsline {subsection}{\numberline {6.7}Line Intersection}{8}
-\contentsline {subsection}{\numberline {6.8}Line Intersection Point}{8}
-\contentsline {subsection}{\numberline {6.9}Rotating Calipers}{8}
-\contentsline {section}{\numberline {7}Graph}{8}
-\contentsline {subsection}{\numberline {7.1}Biconnected Component}{8}
-\contentsline {subsection}{\numberline {7.2}General graph macthing}{8}
-\contentsline {subsection}{\numberline {7.3}KM}{9}
-\contentsline {subsection}{\numberline {7.4}Maximum Weighted Matching(General Graph)}{9}
-\contentsline {subsection}{\numberline {7.5}Minimum mean cycle}{10}
-\contentsline {subsection}{\numberline {7.6}Heavy-Light decomposition}{11}
-\contentsline {subsection}{\numberline {7.7}Centroid Decomposition}{11}
-\contentsline {subsection}{\numberline {7.8}Dynamic MST}{12}
-\contentsline {subsection}{\numberline {7.9}Minimum Steiner Tree}{12}
-\contentsline {subsection}{\numberline {7.10}Maximum Clique}{13}
-\contentsline {subsection}{\numberline {7.11}Zhu Liu Algo}{13}
-\contentsline {section}{\numberline {8}Math}{14}
-\contentsline {subsection}{\numberline {8.1}Fast Power}{14}
-\contentsline {subsection}{\numberline {8.2}Extended Euclidean}{14}
-\contentsline {subsection}{\numberline {8.3}Big Integer}{14}
-\contentsline {subsection}{\numberline {8.4}FFT}{15}
-\contentsline {subsection}{\numberline {8.5}NTT}{15}
-\contentsline {subsection}{\numberline {8.6}FWT}{16}
-\contentsline {subsection}{\numberline {8.7}Subset Convolution}{16}
-\contentsline {subsection}{\numberline {8.8}Gaussian Elimination}{16}
-\contentsline {subsection}{\numberline {8.9}Miller Rabin}{16}
-\contentsline {subsection}{\numberline {8.10}Pollard Rho}{16}
-\contentsline {subsection}{\numberline {8.11}Build phi and mu}{16}
-\contentsline {subsection}{\numberline {8.12}Primitive root}{17}
-\contentsline {subsection}{\numberline {8.13}Cipolla's algorithm}{17}
-\contentsline {subsection}{\numberline {8.14}Meissel-Lehmer Algorithm}{17}
-\contentsline {subsection}{\numberline {8.15}De Brujin}{17}
-\contentsline {subsection}{\numberline {8.16}Simplex Algorithm}{18}
-\contentsline {section}{\numberline {9}String}{18}
-\contentsline {subsection}{\numberline {9.1}string tools}{18}
-\contentsline {subsection}{\numberline {9.2}Aho–Corasick algorithm}{18}
-\contentsline {subsection}{\numberline {9.3}Suffix array}{19}
-\contentsline {subsection}{\numberline {9.4}Lexicographically Smallest Rotation}{20}
+\contentsline {section}{\numberline {6}Graph}{6}
+\contentsline {subsection}{\numberline {6.1}Biconnected Component}{6}
+\contentsline {subsection}{\numberline {6.2}General graph macthing}{6}
+\contentsline {subsection}{\numberline {6.3}KM}{6}
+\contentsline {subsection}{\numberline {6.4}Maximum Weighted Matching(General Graph)}{6}
+\contentsline {subsection}{\numberline {6.5}Minimum mean cycle}{8}
+\contentsline {subsection}{\numberline {6.6}Heavy-Light decomposition}{8}
+\contentsline {subsection}{\numberline {6.7}Centroid Decomposition}{8}
+\contentsline {subsection}{\numberline {6.8}Dynamic MST}{9}
+\contentsline {subsection}{\numberline {6.9}Minimum Steiner Tree}{10}
+\contentsline {subsection}{\numberline {6.10}Maximum Clique}{10}
+\contentsline {subsection}{\numberline {6.11}Zhu Liu Algo}{10}
+\contentsline {section}{\numberline {7}Math}{11}
+\contentsline {subsection}{\numberline {7.1}Fast Power}{11}
+\contentsline {subsection}{\numberline {7.2}Extended Euclidean}{11}
+\contentsline {subsection}{\numberline {7.3}Big Integer}{11}
+\contentsline {subsection}{\numberline {7.4}FFT}{12}
+\contentsline {subsection}{\numberline {7.5}NTT}{12}
+\contentsline {subsection}{\numberline {7.6}FWT}{13}
+\contentsline {subsection}{\numberline {7.7}Subset Convolution}{13}
+\contentsline {subsection}{\numberline {7.8}Gaussian Elimination}{13}
+\contentsline {subsection}{\numberline {7.9}Miller Rabin}{13}
+\contentsline {subsection}{\numberline {7.10}Pollard Rho}{14}
+\contentsline {subsection}{\numberline {7.11}Build phi and mu}{14}
+\contentsline {subsection}{\numberline {7.12}Primitive root}{14}
+\contentsline {subsection}{\numberline {7.13}Cipolla's algorithm}{14}
+\contentsline {subsection}{\numberline {7.14}Discrete Log}{14}
+\contentsline {subsection}{\numberline {7.15}Integer partition}{14}
+\contentsline {subsection}{\numberline {7.16}Meissel-Lehmer Algorithm}{15}
+\contentsline {subsection}{\numberline {7.17}De Brujin}{15}
+\contentsline {subsection}{\numberline {7.18}Simplex Algorithm}{15}
+\contentsline {section}{\numberline {8}String}{16}
+\contentsline {subsection}{\numberline {8.1}string tools}{16}
+\contentsline {subsection}{\numberline {8.2}Aho–Corasick algorithm}{16}
+\contentsline {subsection}{\numberline {8.3}Suffix array}{16}
+\contentsline {subsection}{\numberline {8.4}Lexicographically Smallest Rotation}{17}
+\contentsline {section}{\numberline {9}Geometry}{17}
+\contentsline {subsection}{\numberline {9.1}Circle}{17}
+\contentsline {subsection}{\numberline {9.2}Half Plane Intersection}{18}
+\contentsline {subsection}{\numberline {9.3}Convex Hull 3D}{18}
+\contentsline {subsection}{\numberline {9.4}Convex Hull}{18}
+\contentsline {subsection}{\numberline {9.5}Polar Angle Sort}{19}
+\contentsline {subsection}{\numberline {9.6}Circle and Polygon intersection}{19}
+\contentsline {subsection}{\numberline {9.7}Line Intersection}{20}
+\contentsline {subsection}{\numberline {9.8}Line Intersection Point}{20}
+\contentsline {subsection}{\numberline {9.9}Rotating Calipers}{20}
 \contentsline {section}{\numberline {10}Boook}{20}
 \contentsline {subsection}{\numberline {10.1}Block Tree}{20}
-\contentsline {subsection}{\numberline {10.2}Dancing Link}{20}
+\contentsline {subsection}{\numberline {10.2}Dancing Link}{21}
 \contentsline {subsection}{\numberline {10.3}Joseph Problem}{21}
 \contentsline {subsection}{\numberline {10.4}Middle Speed Linear Recursion}{21}
 \contentsline {subsection}{\numberline {10.5}Segment Max segment sum}{21}
 \contentsline {subsection}{\numberline {10.6}Chinese Remainder Theorem}{22}
 \contentsline {subsection}{\numberline {10.7}Stone merge}{22}
 \contentsline {subsection}{\numberline {10.8}Range modify and query BIT}{22}
-\contentsline {subsection}{\numberline {10.9}Manhattan Spanning Tree}{22}
-\contentsline {subsection}{\numberline {10.10}Integer Split}{23}
-\contentsline {subsection}{\numberline {10.11}K Cover Tree}{23}
-\contentsline {subsection}{\numberline {10.12}M Segments' Maximum Sum}{23}
-\contentsline {subsection}{\numberline {10.13}Minimum Enclosing Cycle}{24}
-\contentsline {subsection}{\numberline {10.14}Rotating Sweep Line}{24}
-\contentsline {subsection}{\numberline {10.15}Hilbert Curve}{24}
+\contentsline {subsection}{\numberline {10.9}Manhattan Spanning Tree}{23}
+\contentsline {subsection}{\numberline {10.10}K Cover Tree}{23}
+\contentsline {subsection}{\numberline {10.11}M Segments' Maximum Sum}{23}
+\contentsline {subsection}{\numberline {10.12}Minimum Enclosing Cycle}{24}
+\contentsline {subsection}{\numberline {10.13}Rotating Sweep Line}{24}
+\contentsline {subsection}{\numberline {10.14}Hilbert Curve}{25}
