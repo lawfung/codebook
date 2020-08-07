@@ -15,6 +15,7 @@
 \usepackage{enumerate}
 \usepackage{titlesec}
 \usepackage{amsmath}
+\usepackage{eso-pic}
 \usepackage[CheckSingle, CJKmath]{xeCJK}
 % \usepackage{CJKulem}
 
@@ -52,6 +53,10 @@
 %\renewcommand*{\cftsecnumwidth}{3em} % increase space for Roman numerals
 %\renewcommand*{\cftsubsubsecindent}{2em} % reduce indent of subsubsection titles 
 
+\newcommand\MyAtPageCenter[1]{\AtPageUpperLeft{%
+\put(\LenToUnit{.14\paperwidth},\LenToUnit{-0.75\paperheight}){#1}}%
+}
+\AddToShipoutPictureBG{\MyAtPageCenter{\includegraphics[scale=0.7]{pusheen.png}}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \makeatletter
