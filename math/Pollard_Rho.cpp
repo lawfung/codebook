@@ -1,3 +1,4 @@
+// isPrime
 map<ll, int> cnt;
 void PollardRho(ll n) {
 	if (n == 1) return;
