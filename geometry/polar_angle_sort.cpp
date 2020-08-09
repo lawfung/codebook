@@ -1,7 +1,5 @@
-bool cmp(vec a,vec b){
-	if((a.Y>0||(a.Y==0&&a.X>0))&&(b.Y<0||(b.Y==0&&b.X<0)))
-		return 1;
-	if((b.Y>0||(b.Y==0&&b.X>0))&&(a.Y<0||(a.Y==0&&a.X<0)))
-		return 0;
-	return (a^b)>0;
+#define is_neg(_k) (_k.Y < 0 || (_k.Y == 0 && _k.X < 0) )
+bool cmp(pll a,pll b){
+	int A = is_neg(a), B = is_neg(b);
+	return (A == B ? (a ^ b) > 0 : A < B);
 }
