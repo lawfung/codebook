@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.8.2)  8 AUG 2020 12:08
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.8.2)  9 AUG 2020 08:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1340,10 +1340,10 @@ File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
  [4])
 (./flow/costflow.cpp) (./flow/Stoer_Wagner_global_mincut.cpp)
-(./flow/Gomory_Hu(pseudo).cpp)
+(./flow/Gomory_Hu(pseudo).cpp
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
- [5] (./graph/Biconnected_component.cpp)
+ [5]) (./graph/Biconnected_component.cpp)
 (./graph/general_graph_matching.cpp) (./graph/KM.cpp)
 (./graph/maximum_weighted_general_graph.cpp
 File: pusheen.png Graphic file (type bmp)
@@ -1369,10 +1369,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
  [9]) (./graph/MinimumSteinerTree.cpp)
-(./graph/maximum_clique.cpp) (./graph/zl.cpp
+(./graph/maximum_clique.cpp)
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
- [10]) (./math/fast_power.cpp)
+ [10] (./graph/zl.cpp) (./math/fast_power.cpp)
 (./math/Extended_Euclidean.cpp) (./math/bigint.cpp
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
@@ -1383,14 +1383,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./math/fft.cpp) (./math/NTT.cpp
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
- [12]) (./math/FWT.cpp)
-(./math/subset_convolution.cpp) (./math/gauss.cpp) (./math/build_prime.cpp)
-(./math/miller_rabin.cpp
+ [12])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./math/FWT.cpp) (./math/subset_convolution.cpp) (./math/gauss.cpp)
+(./math/build_prime.cpp)
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
- [13]) (./math/Pollard_Rho.cpp)
-(./math/build_phi_and_mu.cpp) (./math/Primitive_root.cpp) (./math/cipolla.cpp)
-(./math/Discrete_Log.cpp
+ [13] (./math/miller_rabin.cpp) (./math/Pollard_Rho.cpp) (./math/build_phi_and_
+mu.cpp) (./math/Primitive_root.cpp) (./math/cipolla.cpp) (./math/Discrete_Log.c
+pp
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
  [14]) (./math/Integer_partition.cpp)
@@ -1398,42 +1401,39 @@ File: pusheen.png Graphic file (type bmp)
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
  [15])
-(./string/string_tool.cpp) (./string/AC_Machine.cpp)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+(./string/string_tool.cpp) (./string/AC_Machine.cpp
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
- [16]
-(./string/suffix_array.cpp) (./string/minimum_rotation.cpp)
-(./geometry/circle.cpp
+ [16])
+(./string/suffix_array.cpp) (./string/minimum_rotation.cpp
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
- [17]) (./geometry/Half_plane_inter.cpp)
-(./geometry/ConvexHull3D.cpp)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+ [17])
+(./geometry/circle.cpp) (./geometry/Half_plane_inter.cpp)
+(./geometry/ConvexHull3D.cpp
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
- [18]
-(./geometry/ConvexHull.cpp) (./geometry/polar_angle_sort.cpp)
-(./geometry/circle_tri.cpp
+ [18]) (./geometry/ConvexHull.cpp)
+(./geometry/polar_angle_sort.cpp) (./geometry/circle_tri.cpp
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
- [19]) (./geometry/line_inter.cpp)
-(./geometry/line_intersect.cpp) (./geometry/rotating_calipers.cpp)
-(./boook/block_tree.cpp
+ [19])
+(./geometry/line_inter.cpp) (./geometry/line_intersect.cpp)
+(./geometry/rotating_calipers.cpp) (./boook/block_tree.cpp
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
- [20]) (./boook/DancingLinkX.cpp)
-(./boook/joseph_mlogn.cpp) (./boook/mid_speed_linear_recursion.cpp
+ [20])
+(./boook/DancingLinkX.cpp) (./boook/joseph_mlogn.cpp)
+(./boook/mid_speed_linear_recursion.cpp
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
- [21])
-(./boook/NOI_Problem.cpp) (./boook/same_remainder.cpp) (./boook/stone_merge.cpp
-) (./boook/two_demical_bit_matrix.cpp
+ [21]) (./boook/NOI_Problem.cpp)
+(./boook/same_remainder.cpp) (./boook/stone_merge.cpp
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
- [22]) (./boook/Mahaton_Spanning_Tree.cpp) (./boook/KCoverTree.cpp
+ [22])
+(./boook/two_demical_bit_matrix.cpp) (./boook/Mahaton_Spanning_Tree.cpp)
+(./boook/KCoverTree.cpp
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
  [23]) (./boook/MaximumMSum.cpp)
@@ -1452,12 +1452,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 23991 strings out of 494988
- 450259 string characters out of 6178639
- 1294935 words of memory out of 5000000
- 27419 multiletter control sequences out of 15000+600000
+ 24003 strings out of 494988
+ 450399 string characters out of 6178639
+ 1247935 words of memory out of 5000000
+ 27431 multiletter control sequences out of 15000+600000
  531739 words of font info for 50 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 39i,12n,65p,10409b,1576s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,12n,65p,10409b,1590s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on codebook.pdf (25 pages).

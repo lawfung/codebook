@@ -37,7 +37,7 @@
 \contentsline {subsection}{\numberline {6.8}Dynamic MST}{9}
 \contentsline {subsection}{\numberline {6.9}Minimum Steiner Tree}{10}
 \contentsline {subsection}{\numberline {6.10}Maximum Clique}{10}
-\contentsline {subsection}{\numberline {6.11}Zhu Liu Algo}{10}
+\contentsline {subsection}{\numberline {6.11}Zhu Liu Algo}{11}
 \contentsline {section}{\numberline {7}Math}{11}
 \contentsline {subsection}{\numberline {7.1}Fast Power}{11}
 \contentsline {subsection}{\numberline {7.2}Extended Euclidean}{11}
@@ -48,7 +48,7 @@
 \contentsline {subsection}{\numberline {7.7}Subset Convolution}{13}
 \contentsline {subsection}{\numberline {7.8}Gaussian Elimination}{13}
 \contentsline {subsection}{\numberline {7.9}Build Prime}{13}
-\contentsline {subsection}{\numberline {7.10}Miller Rabin}{13}
+\contentsline {subsection}{\numberline {7.10}Miller Rabin}{14}
 \contentsline {subsection}{\numberline {7.11}Pollard Rho}{14}
 \contentsline {subsection}{\numberline {7.12}Build Phi and Mu}{14}
 \contentsline {subsection}{\numberline {7.13}Primitive Root}{14}
@@ -63,8 +63,8 @@
 \contentsline {subsection}{\numberline {8.2}Aho–Corasick Algorithm}{16}
 \contentsline {subsection}{\numberline {8.3}Suffix Array}{17}
 \contentsline {subsection}{\numberline {8.4}Lexicographically Smallest Rotation}{17}
-\contentsline {section}{\numberline {9}Geometry}{17}
-\contentsline {subsection}{\numberline {9.1}Circle}{17}
+\contentsline {section}{\numberline {9}Geometry}{18}
+\contentsline {subsection}{\numberline {9.1}Circle}{18}
 \contentsline {subsection}{\numberline {9.2}Half Plane Intersection}{18}
 \contentsline {subsection}{\numberline {9.3}Convex Hull 3D}{18}
 \contentsline {subsection}{\numberline {9.4}Convex Hull}{19}
@@ -81,7 +81,7 @@
 \contentsline {subsection}{\numberline {10.5}Segment Max Segment Sum}{22}
 \contentsline {subsection}{\numberline {10.6}Chinese Remainder Theorem}{22}
 \contentsline {subsection}{\numberline {10.7}Stone Merge}{22}
-\contentsline {subsection}{\numberline {10.8}Range Modify and Query BIT}{22}
+\contentsline {subsection}{\numberline {10.8}Range Modify and Query BIT}{23}
 \contentsline {subsection}{\numberline {10.9}Manhattan Spanning Tree}{23}
 \contentsline {subsection}{\numberline {10.10}K Cover Tree}{23}
 \contentsline {subsection}{\numberline {10.11}M Segments' Maximum Sum}{24}
