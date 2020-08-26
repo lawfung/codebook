@@ -56,7 +56,7 @@
 \contentsline {subsection}{\numberline {7.15}Discrete Log}{14}
 \contentsline {subsection}{\numberline {7.16}Integer Partition}{15}
 \contentsline {subsection}{\numberline {7.17}Meissel-Lehmer Algorithm}{15}
-\contentsline {subsection}{\numberline {7.18}De Brujin}{15}
+\contentsline {subsection}{\numberline {7.18}De Bruijn}{15}
 \contentsline {subsection}{\numberline {7.19}Simplex Algorithm}{15}
 \contentsline {section}{\numberline {8}String}{16}
 \contentsline {subsection}{\numberline {8.1}String Tools}{16}

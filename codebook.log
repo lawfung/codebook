@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.8.2)  9 AUG 2020 19:07
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2020.8.2)  27 AUG 2020 07:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1397,7 +1397,7 @@ pp
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
  [14]) (./math/Integer_partition.cpp)
-(./math/Meissel_Lehmer.cpp) (./math/debrujin.cpp) (./math/simplex.cpp
+(./math/Meissel_Lehmer.cpp) (./math/debruijn.cpp) (./math/simplex.cpp
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
  [15])
@@ -1437,7 +1437,7 @@ File: pusheen.png Graphic file (type bmp)
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
  [23]) (./boook/MaximumMSum.cpp)
-(./boook/minimum_enclosing_cycle.cpp) (./boook/tri.cpp
+(./boook/minimum_enclosing_cycle.cpp) (./boook/Rotating_Sweep_Line.cpp
 File: pusheen.png Graphic file (type bmp)
 <pusheen.png>
  [24])
@@ -1452,10 +1452,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 24007 strings out of 494988
- 450435 string characters out of 6178639
+ 24011 strings out of 494988
+ 450531 string characters out of 6178639
  1247935 words of memory out of 5000000
- 27435 multiletter control sequences out of 15000+600000
+ 27439 multiletter control sequences out of 15000+600000
  531739 words of font info for 50 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  39i,12n,65p,10409b,1590s stack positions out of 5000i,500n,10000p,200000b,80000s
