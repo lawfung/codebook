@@ -44,32 +44,33 @@
 \contentsline {subsection}{\numberline {8.2}Extended Euclidean}{11}%
 \contentsline {subsection}{\numberline {8.3}Big Integer}{11}%
 \contentsline {subsection}{\numberline {8.4}Gaussian Elimination}{12}%
-\contentsline {subsection}{\numberline {8.5}Build Prime}{12}%
-\contentsline {subsection}{\numberline {8.6}Miller Rabin}{12}%
-\contentsline {subsection}{\numberline {8.7}Pollard Rho}{12}%
-\contentsline {subsection}{\numberline {8.8}Build Phi and Mu}{13}%
-\contentsline {subsection}{\numberline {8.9}Primitive Root}{13}%
-\contentsline {subsection}{\numberline {8.10}Cipolla's Algorithm}{13}%
-\contentsline {subsection}{\numberline {8.11}Discrete Log}{13}%
-\contentsline {subsection}{\numberline {8.12}Integer Partition}{13}%
-\contentsline {subsection}{\numberline {8.13}Meissel-Lehmer Algorithm}{13}%
-\contentsline {subsection}{\numberline {8.14}De Bruijn}{14}%
-\contentsline {subsection}{\numberline {8.15}Simplex Algorithm}{14}%
-\contentsline {section}{\numberline {9}Convolution}{14}%
-\contentsline {subsection}{\numberline {9.1}FFT}{14}%
+\contentsline {subsection}{\numberline {8.5}Linear Basis}{12}%
+\contentsline {subsection}{\numberline {8.6}Build Prime}{12}%
+\contentsline {subsection}{\numberline {8.7}Miller Rabin}{12}%
+\contentsline {subsection}{\numberline {8.8}Pollard Rho}{13}%
+\contentsline {subsection}{\numberline {8.9}Build Phi and Mu}{13}%
+\contentsline {subsection}{\numberline {8.10}Primitive Root}{13}%
+\contentsline {subsection}{\numberline {8.11}Cipolla's Algorithm}{13}%
+\contentsline {subsection}{\numberline {8.12}Discrete Log}{13}%
+\contentsline {subsection}{\numberline {8.13}Integer Partition}{14}%
+\contentsline {subsection}{\numberline {8.14}Meissel-Lehmer Algorithm}{14}%
+\contentsline {subsection}{\numberline {8.15}De Bruijn}{14}%
+\contentsline {subsection}{\numberline {8.16}Simplex Algorithm}{14}%
+\contentsline {section}{\numberline {9}Convolution}{15}%
+\contentsline {subsection}{\numberline {9.1}FFT}{15}%
 \contentsline {subsection}{\numberline {9.2}NTT}{15}%
-\contentsline {subsection}{\numberline {9.3}FWT}{15}%
-\contentsline {subsection}{\numberline {9.4}Subset Convolution}{15}%
-\contentsline {section}{\numberline {10}String}{15}%
-\contentsline {subsection}{\numberline {10.1}String Tools}{15}%
+\contentsline {subsection}{\numberline {9.3}FWT}{16}%
+\contentsline {subsection}{\numberline {9.4}Subset Convolution}{16}%
+\contentsline {section}{\numberline {10}String}{16}%
+\contentsline {subsection}{\numberline {10.1}String Tools}{16}%
 \contentsline {subsection}{\numberline {10.2}Aho–Corasick Algorithm}{16}%
-\contentsline {subsection}{\numberline {10.3}Suffix Array}{16}%
+\contentsline {subsection}{\numberline {10.3}Suffix Array}{17}%
 \contentsline {subsection}{\numberline {10.4}Lexicographically Smallest Rotation}{17}%
-\contentsline {section}{\numberline {11}Geometry}{17}%
-\contentsline {subsection}{\numberline {11.1}Circle}{17}%
-\contentsline {subsection}{\numberline {11.2}Half Plane Intersection}{17}%
+\contentsline {section}{\numberline {11}Geometry}{18}%
+\contentsline {subsection}{\numberline {11.1}Circle}{18}%
+\contentsline {subsection}{\numberline {11.2}Half Plane Intersection}{18}%
 \contentsline {subsection}{\numberline {11.3}Convex Hull 3D}{18}%
-\contentsline {subsection}{\numberline {11.4}Convex Hull}{18}%
+\contentsline {subsection}{\numberline {11.4}Convex Hull}{19}%
 \contentsline {subsection}{\numberline {11.5}Polar Angle Sort}{19}%
 \contentsline {subsection}{\numberline {11.6}Circle and Polygon intersection}{19}%
 \contentsline {subsection}{\numberline {11.7}Line Intersection}{20}%
@@ -80,12 +81,12 @@
 \contentsline {subsection}{\numberline {12.2}Dancing Link}{21}%
 \contentsline {subsection}{\numberline {12.3}Joseph Problem}{21}%
 \contentsline {subsection}{\numberline {12.4}Middle Speed Linear Recursion}{21}%
-\contentsline {subsection}{\numberline {12.5}Segment Max Segment Sum}{21}%
+\contentsline {subsection}{\numberline {12.5}Segment Max Segment Sum}{22}%
 \contentsline {subsection}{\numberline {12.6}Chinese Remainder Theorem}{22}%
 \contentsline {subsection}{\numberline {12.7}Stone Merge}{22}%
-\contentsline {subsection}{\numberline {12.8}Range Modify and Query BIT}{22}%
+\contentsline {subsection}{\numberline {12.8}Range Modify and Query BIT}{23}%
 \contentsline {subsection}{\numberline {12.9}Manhattan Spanning Tree}{23}%
 \contentsline {subsection}{\numberline {12.10}K Cover Tree}{23}%
-\contentsline {subsection}{\numberline {12.11}M Segments' Maximum Sum}{23}%
+\contentsline {subsection}{\numberline {12.11}M Segments' Maximum Sum}{24}%
 \contentsline {subsection}{\numberline {12.12}Minimum Enclosing Cycle}{24}%
 \contentsline {subsection}{\numberline {12.13}Rotating Sweep Line}{24}%
