@@ -4,3 +4,5 @@
 *.fls
 *.xdv
 *.png
+*.fdb
+*.synctex*
