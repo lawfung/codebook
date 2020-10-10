@@ -1,3 +1,6 @@
 *.log
 *.aux
 *.toc
+*.fls
+*.xdv
+*.png
