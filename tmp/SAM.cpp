@@ -1,6 +1,3 @@
-
-## Suffix Automation ##
-```cpp
 const int maxnode = 1000000 + 5;
 const int SIGMA_SIZE = 26;
 struct Node {
@@ -34,4 +31,3 @@ struct SuffixAutomaton {
     last = np;
   }
 } SAM;
-```
